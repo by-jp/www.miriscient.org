@@ -1,0 +1,9 @@
+{
+  "name": "deploy",
+  "description": "Deploys the contents of this repo to miriscient.org",
+  "main": "deploy.js",
+  "devDependencies": {
+    "@pinata/sdk": "^1.1.10",
+    "cloudflare": "^2.7.0"
+  }
+}
