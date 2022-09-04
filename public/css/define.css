@@ -39,6 +39,11 @@ body {
 
   font-size: 1.5em;
   font-family: 'EB Garamond', serif;
+  background-color:  #fff;
+}
+
+p {
+  color: #000;
 }
 
 a {
@@ -106,4 +111,39 @@ p.header {
 }
 .logo:hover {
   opacity: 1;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color:  #000;
+  }
+
+  a {
+    border-bottom: 1px dotted #666;
+  }
+
+  a:hover {
+    border-bottom: 1px solid #bbb;
+  }
+
+  .type, .pronunciation, .explain {
+    color: #888;
+  }
+
+  .example {
+    color: #ddd;
+  }
+
+  .origin {
+    color: #aaa;
+  }
+
+  p {
+    color: #fff;
+  }
+
+  .logo {
+    -webkit-filter: invert(100%);
+            filter: invert(100%);
+  }
 }
